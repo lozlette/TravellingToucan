@@ -1,0 +1,26 @@
+.hero.is-medium.full-width-img {
+  height: 202vh;
+  background: url('https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-0/p526x296/121067656_108935114316641_5009744905972143479_n.jpg?_nc_cat=108&_nc_sid=8bfeb9&_nc_ohc=0gOB19DasIIAX9LEE8R&_nc_ht=scontent.fltn1-1.fna&tp=6&oh=2ea4d7f704a86f78163974108e297fbc&oe=5FA72A56');
+  background-repeat: no-repeat;
+  background-size: cover;;
+}
+
+.navbar.is-transparent.is-fixed-top {
+  background-color: inherit;
+}
+
+.navbar-item {
+  color: #ffc107 !important;
+}
+
+.title {
+  color: #ffc107 !important;
+  font-size: 150px !important;
+  text-shadow: 3px 3px #ffffff !important;
+}
+
+.subtitle {
+  color: #ffc107 !important;
+  font-size: 80px !important;
+  text-shadow: 2px 2px #ffffff !important;
+}
