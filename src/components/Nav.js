@@ -7,7 +7,7 @@ class Nav extends React.Component {
       <nav className="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a className="navbar-item" href="http://www.travellingtoucan.co.uk">
-            <img src="https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-0/s526x395/121009987_108918067651679_8401112923733463285_n.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=bxEtTLA7-o4AX8wH5Qw&_nc_ht=scontent.fltn1-2.fna&tp=7&oh=8723f5e6c71a9afed9a73c028309e7bb&oe=5FA8DBB9" width="35" height="35"/>
+            <img src="https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-0/s526x395/121009987_108918067651679_8401112923733463285_n.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=bxEtTLA7-o4AX8wH5Qw&_nc_ht=scontent.fltn1-2.fna&tp=7&oh=8723f5e6c71a9afed9a73c028309e7bb&oe=5FA8DBB9" width="30" height="30"/>
           </a>
 
           <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -32,13 +32,16 @@ class Nav extends React.Component {
               </a>
 
               <div className="navbar-dropdown">
-                <a className="navbar-item">
+                <a className="navbar-item colour">
+                  Etsy
+                </a>
+                <a className="navbar-item colour">
                   Facebook
                 </a>
-                <a className="navbar-item">
+                <a className="navbar-item colour">
                   Instagram
                 </a>
-                <a className="navbar-item">
+                <a className="navbar-item colour">
                   Email
                 </a>
               </div>
