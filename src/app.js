@@ -6,6 +6,9 @@ import 'bootstrap-css-only'
 
 import Hero from './components/Hero'
 import Nav from './components/Nav'
+import Main from './components/Main'
+import Gallery from './components/Gallery'
+import Footer from './components/Footer'
 
 class App extends React.Component{
   constructor(){
@@ -17,7 +20,10 @@ class App extends React.Component{
     return(
       <div>
         <Nav />
-        <Hero />  
+        <Hero />
+        <Gallery />
+        <Main />
+        <Footer />
       </div>
     )
   }

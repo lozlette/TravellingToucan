@@ -1,16 +1,36 @@
-.hero.is-medium.full-width-img {
-  height: 202vh;
-  background: url('https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-0/p526x296/121067656_108935114316641_5009744905972143479_n.jpg?_nc_cat=108&_nc_sid=8bfeb9&_nc_ohc=0gOB19DasIIAX9LEE8R&_nc_ht=scontent.fltn1-1.fna&tp=6&oh=2ea4d7f704a86f78163974108e297fbc&oe=5FA72A56');
-  background-repeat: no-repeat;
-  background-size: cover;;
+a:link {
+  color: #ff6699 !important;
+  text-decoration: none !important;
 }
 
-.navbar.is-transparent.is-fixed-top {
-  background-color: inherit;
+a:hover {
+  color: #ff6699 !important;
+  text-decoration: none !important;
+}
+
+.hero.is-medium.full-width-img {
+  background-image: url('./images/IMG_9339.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.hero.is-medium.full-width-img2 {
+  background-image: url('./images/ginandpickles.JPG');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: auto;
+
+}
+
+.navbar.is-white.is-fixed-top {
+  background-color: #ffffff;
 }
 
 .navbar-item {
-  color: #ffffff !important;
+  color: #ffc107 !important;
   text-shadow: 1px 1px #000000 !important;
 }
 
@@ -42,9 +62,23 @@
   color: #ffffff !important;
   font-size:50px !important;
   text-shadow: 2px 2px #000000 !important;
-  text-align: left !important;
+  text-align: center !important;
   font-family: 'Montserrat', sans-serif !important;
+  border: 2px solid #ffffff;
+  width: 33.33%;
 }
+
+.subtitle.left.bottom {
+  color: #ffffff !important;
+  font-size:50px !important;
+  text-shadow: 2px 2px #000000 !important;
+  text-align: center !important;
+  font-family: 'Montserrat', sans-serif !important;
+  border: 2px solid #ffffff;
+  width: 33.33%;
+  margin-top: 50px;
+}
+
 
 .subtitle.arrow-1 {
   color: #00cccc !important;
@@ -67,8 +101,39 @@
 }
 
 .about-p {
-  align-items: flex-start;
+  align-items: flex-end;
   width: 33.33%;
   color: #ffffff;
   text-shadow: 1px 1px #000000 !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.footer {
+  height: 20px !important;
+  padding: none !important;
+  margin: none !important;
+  background-color: #ffffff !important;
+  color: #ffc107 !important;
+  text-shadow: 0.3px 0.3px #000000 !important;
+  font-size: 13px;
+}
+
+@media (max-width: 480px) {
+  .hero.is-medium.full-width-img {
+    background-image: url('./images/IMG_9339.jpg');
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    height: 1180px !important;
+  }
+
+  .hero.is-medium.full-width-img2 {
+    background-image: url('./images/ginandpickles.JPG');
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    height: 1180px !important;
+  }
+
+  .hero-body {
+    height: 1180px !important;
+  }
 }
