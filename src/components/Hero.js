@@ -9,7 +9,7 @@ class Hero extends React.Component {
       <section className="hero is-medium full-width-img">
         <div className="hero-body">
           <div className="container">
-            <h1 className="title-1">
+            <h1 className="title-1" id="top">
               Travelling
             </h1>
             <h1 className="title-2">

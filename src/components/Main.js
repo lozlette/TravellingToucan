@@ -36,7 +36,7 @@ class Main extends React.Component {
               </h2>
             </a>
             <h2 className="subtitle arrow-2">
-              <a href="title-1">
+              <a href="#top">
               △
               </a>
             </h2>
