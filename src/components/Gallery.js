@@ -10,7 +10,7 @@ class Gallery extends React.Component {
           <p className="title"></p>
           <p className="subtitle"></p>
           <figure className="image is-4by5">
-            <img src="./images/IMG_9356.jpg" />
+            <img src="./images/img_9356.jpg" />
           </figure>
         </article>
         <article className="tile is-child notification is-white">
