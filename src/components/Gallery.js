@@ -17,14 +17,14 @@ class Gallery extends React.Component {
           <p className="title"></p>
           <p className="subtitle"></p>
           <figure className="image is-4by5">
-            <img src="./images/ginandpickles.JPG" />
+            <img src="./images/ginandpickles.jpg" />
           </figure>
         </article>
         <article className="tile is-child notification is-white">
           <p className="title"></p>
           <p className="subtitle"></p>
           <figure className="image is-4by5">
-            <img src="./images/IMG_9349.jpg" />
+            <img src="../images/IMG_9349.jpg" />
           </figure>
         </article>
       </div>
