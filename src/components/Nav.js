@@ -7,7 +7,7 @@ class Nav extends React.Component {
       <nav className="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a className="navbar-item" href="http://www.travellingtoucan.co.uk">
-            <img src="images/logo2.jpg" width="40" height="40"/>
+            <img src="../images/logo2.jpg" width="40" height="40" alt="travelling toucan logo"/>
           </a>
 
           <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
