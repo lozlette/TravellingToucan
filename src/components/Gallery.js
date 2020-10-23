@@ -10,21 +10,21 @@ class Gallery extends React.Component {
           <p className="title"></p>
           <p className="subtitle"></p>
           <figure className="image is-4by5">
-            <img src=".../images/img_9356.jpg" alt="Australia Hawaii and Estonia signpost"/>
+            <img src="./images/img_9356.jpg" alt="Australia Hawaii and Estonia signpost"/>
           </figure>
         </article>
         <article className="tile is-child notification is-white">
           <p className="title"></p>
           <p className="subtitle"></p>
           <figure className="image is-4by5">
-            <img src=".../images/ginandpickles.jpg" alt="gin and pickles bar signpost"/>
+            <img src="./images/ginandpickles.jpg" alt="gin and pickles bar signpost"/>
           </figure>
         </article>
         <article className="tile is-child notification is-white">
           <p className="title"></p>
           <p className="subtitle"></p>
           <figure className="image is-4by5">
-            <img src=".../images/img_9349.jpg" alt="Borneo Glastonbury signpost"/>
+            <img src="./images/img_9349.jpg" alt="Borneo Glastonbury signpost"/>
           </figure>
         </article>
       </div>
