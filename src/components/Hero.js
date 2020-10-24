@@ -12,7 +12,7 @@ class Hero extends React.Component {
             <h1 className="title-1" id="top">
               TRAVELLING
             </h1>
-            <h1 className="title-2">
+            <h1 className="title-2" id="home">
               TOUCAN
             </h1>
             <h2 className="subtitle">
