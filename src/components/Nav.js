@@ -7,7 +7,8 @@ class Nav extends React.Component {
     super(props)
 
     this.state = {
-      navbarOpen: false
+      navbarOpen: false,
+      burger: Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0)
     }
 
     this.toggleNavbar = this.toggleNavbar.bind(this)
@@ -16,6 +17,27 @@ class Nav extends React.Component {
   toggleNavbar() {
     this.setState({ navbarOpen: !this.state.navbarOpen })
   }
+
+  getBurgerToWork(burger){
+    if (burger.length > 0) {
+
+      // Add a click event on each of them
+      burger.forEach( el => {
+        el.addEventListener('click', () => {
+
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target
+          const $target = document.getElementById(target)
+
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active')
+          $target.classList.toggle('is-active')
+
+        })
+      })
+    }
+  }
+
 
   render(){
     return (
@@ -35,30 +57,30 @@ class Nav extends React.Component {
         <div id="navbarBasicExample" className="navbar-menu">
           <div className="navbar-start">
             <a className="navbar-item" href="#about">
-              About Us
+      About Us
             </a>
 
             <a className="navbar-item" href="https://www.etsy.com/uk/shop/TravellingToucan">
-              Place an Order
+      Place an Order
             </a>
 
             <div className="navbar-item has-dropdown is-hoverable">
               <a className="navbar-link">
-                Contact
+      Contact
               </a>
 
               <div className="navbar-dropdown">
                 <a className="navbar-item colour" href="https://www.etsy.com/uk/shop/TravellingToucan">
-                  Etsy
+      Etsy
                 </a>
                 <a className="navbar-item colour" href="https://www.facebook.com/travellingtoucanltd">
-                  Facebook
+      Facebook
                 </a>
                 <a className="navbar-item colour" href="https://www.instagram.com/travellingtoucanltd/?hl=en">
-                  Instagram
+      Instagram
                 </a>
                 <a className="navbar-item colour" href="mailto:sales@travellingtoucan.co.uk">
-                  Email
+      Email
                 </a>
               </div>
             </div>
