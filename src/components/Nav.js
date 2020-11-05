@@ -7,35 +7,16 @@ class Nav extends React.Component {
     super(props)
 
     this.state = {
-      navbarOpen: false,
-      burger: Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0)
+      navbarOpen: false
     }
 
     this.toggleNavbar = this.toggleNavbar.bind(this)
+
   }
 
   toggleNavbar() {
     this.setState({ navbarOpen: !this.state.navbarOpen })
-  }
-
-  getBurgerToWork(burger){
-    if (burger.length > 0) {
-
-      // Add a click event on each of them
-      burger.forEach( el => {
-        el.addEventListener('click', () => {
-
-          // Get the target from the "data-target" attribute
-          const target = el.dataset.target
-          const $target = document.getElementById(target)
-
-          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-          el.classList.toggle('is-active')
-          $target.classList.toggle('is-active')
-
-        })
-      })
-    }
+    console.log('toggle function working')
   }
 
 
@@ -48,13 +29,13 @@ class Nav extends React.Component {
           </a>
 
           <a className={`navbar-burger ${this.state.navbarOpen ? 'is-active' :'' }`}
-            onClick={this.toggleNavbar}>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
+            onClick={this.toggleNavbar} >
+            <span className="toggleItem" aria-hidden="true"></span>
+            <span className="toggleItem" aria-hidden="true"></span>
+            <span className="toggleItem" aria-hidden="true"></span>
           </a>
         </div>
-        <div id="navbarBasicExample" className="navbar-menu">
+        <div id="navbarBasicExample" className={`navbar-menu ${this.state.navbarOpen ? 'is-active' :'' }`}>
           <div className="navbar-start">
             <a className="navbar-item" href="#about">
       About Us
