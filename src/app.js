@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom'
 import './style.scss'
 import 'normalize-scss'
 import 'bootstrap-css-only'
-
+import img_9349 from './images/img.9349.jpg'
 import Hero from './components/Hero'
 import Nav from './components/Nav'
 import Main from './components/Main'
 import Gallery from './components/Gallery'
 import Footer from './components/Footer'
+
 
 class App extends React.Component{
   constructor(){
