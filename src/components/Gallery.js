@@ -24,7 +24,7 @@ class Gallery extends React.Component {
           <p className="title"></p>
           <p className="subtitle"></p>
           <figure className="image is-4by5">
-            <img src="./images/img_9349.jpg" alt="Borneo Glastonbury signpost"/>
+            <img src="./images/Img9349.jpg" alt="Borneo Glastonbury signpost"/>
           </figure>
         </article>
       </div>
