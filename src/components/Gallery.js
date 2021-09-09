@@ -1,5 +1,8 @@
 import React from 'react'
 import 'bulma'
+import Img9349 from '../images/Img9349.jpg'
+import Img9356 from '../images/Img9356.jpg'
+import GinAndPickles from '../images/GinAndPickles.jpg'
 
 
 class Gallery extends React.Component {
@@ -10,21 +13,21 @@ class Gallery extends React.Component {
           <p className="title"></p>
           <p className="subtitle"></p>
           <figure className="image is-4by5">
-            <img src="./images/img_9356.jpg" alt="Australia Hawaii and Estonia signpost"/>
+            <img src={Img9356} alt="Australia Hawaii and Estonia signpost"/>
           </figure>
         </article>
         <article className="tile is-child notification is-white">
           <p className="title"></p>
           <p className="subtitle"></p>
           <figure className="image is-4by5">
-            <img src="./images/ginandpickles.jpg" alt="gin and pickles bar signpost"/>
+            <img src={GinAndPickles} alt="gin and pickles bar signpost"/>
           </figure>
         </article>
         <article className="tile is-child notification is-white">
           <p className="title"></p>
           <p className="subtitle"></p>
           <figure className="image is-4by5">
-            <img src="./images/Img9349.jpg" alt="Borneo Glastonbury signpost"/>
+            <img src={Img9349} alt="Borneo Glastonbury Signpost"/>
           </figure>
         </article>
       </div>
