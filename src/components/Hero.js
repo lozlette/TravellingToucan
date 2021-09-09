@@ -10,10 +10,10 @@ class Hero extends React.Component {
         <div className="hero-body">
           <div className="container">
             <h1 className="title-1" id="top">
-              Travelling
+              TRAVELLING
             </h1>
-            <h1 className="title-2">
-              Toucan
+            <h1 className="title-2" id="home">
+              TOUCAN
             </h1>
             <h2 className="subtitle">
               Custom hand made signposts, perfect for that wedding, birthday or anniversary gift.

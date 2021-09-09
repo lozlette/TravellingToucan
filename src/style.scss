@@ -9,23 +9,25 @@ a:hover {
 }
 
 .hero.is-medium.full-width-img {
-  background-image: url('./images/IMG_9339.jpg');
+  background-image: url('./images/img_9339.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
   height: auto;
+  text-align: center;
 }
 
 .hero.is-medium.full-width-img2 {
-  background-image: url('./images/ginandpickles.JPG');
+  background-image: url('./images/ginandpickles.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
   height: auto;
+  text-align: center;
 
 }
 
-.navbar.is-white.is-fixed-top {
+.navbar.is-transparent.is-fixed-top {
   background-color: #ffffff;
 }
 
@@ -34,9 +36,13 @@ a:hover {
   text-shadow: 1px 1px #000000 !important;
 }
 
+#navbarBasicExample.navbar-menu.is-active {
+  background-color: inherit;
+}
+
 .title-1 {
   color: #ffffff !important;
-  font-size: 150px !important;
+  font-size: 110px !important;
   text-shadow: 3px 3px #000000 !important;
   text-align: center !important;
   font-family: 'Montserrat', sans-serif !important;
@@ -44,7 +50,7 @@ a:hover {
 
 .title-2 {
   color: #ffffff !important;
-  font-size: 200px !important;
+  font-size: 160px !important;
   text-shadow: 3px 3px #000000 !important;
   text-align: center !important;
   font-family: 'Montserrat', sans-serif !important;
@@ -120,14 +126,14 @@ a:hover {
 
 @media (max-width: 480px) {
   .hero.is-medium.full-width-img {
-    background-image: url('./images/IMG_9339.jpg');
+    background-image: url('./images/img_9339.jpg');
     background-repeat: no-repeat !important;
     background-size: contain !important;
     height: 1180px !important;
   }
 
   .hero.is-medium.full-width-img2 {
-    background-image: url('./images/ginandpickles.JPG');
+    background-image: url('./images/ginandpickles.jpg');
     background-repeat: no-repeat !important;
     background-size: contain !important;
     height: 1180px !important;
