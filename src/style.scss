@@ -27,7 +27,7 @@ a:hover {
 
 }
 
-.navbar.is-white.is-fixed-top {
+.navbar.is-transparent.is-fixed-top {
   background-color: #ffffff;
 }
 
@@ -36,8 +36,8 @@ a:hover {
   text-shadow: 1px 1px #000000 !important;
 }
 
-.navbar-burger.toggleItem {
-  background-color: #ffffff;
+#navbarBasicExample.navbar-menu.is-active {
+  background-color: inherit;
 }
 
 .title-1 {

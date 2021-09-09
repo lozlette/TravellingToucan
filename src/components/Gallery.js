@@ -17,7 +17,7 @@ class Gallery extends React.Component {
           <p className="title"></p>
           <p className="subtitle"></p>
           <figure className="image is-4by5">
-            <img src="https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/122001487_120326439844175_7349277399281664806_n.jpg?_nc_cat=101&ccb=2&_nc_sid=8bfeb9&_nc_ohc=6Ik2OK3Y5JIAX_ruoQ2&_nc_ht=scontent.fltn1-2.fna&oh=5be264fb0d6abb36226f8f2e0ea0a92f&oe=5FB82B1B" alt="gin and pickles bar signpost"/>
+            <img src="./images/ginandpickles.jpg" alt="gin and pickles bar signpost"/>
           </figure>
         </article>
         <article className="tile is-child notification is-white">
