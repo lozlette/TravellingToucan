@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bulma'
-import logo2 from '../images/logo2.JPG'
+import logo2 from '../../public/assets/images/logo2.jpg'
 
 
 class Nav extends React.Component {

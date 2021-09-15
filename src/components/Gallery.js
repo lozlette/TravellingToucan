@@ -1,8 +1,8 @@
 import React from 'react'
 import 'bulma'
-import img9349 from '../images/img9349.jpg'
-import img9356 from '../images/img9356.jpg'
-import ginandpickles from '../images/ginandpickles.JPG'
+import img9349 from '../../public/assets/images/img9349.jpg'
+import img9356 from '../../public/assets/images/img9356.jpg'
+import ginandpickles from '../../public/assets/images/ginandpickles.jpg'
 
 
 class Gallery extends React.Component {
