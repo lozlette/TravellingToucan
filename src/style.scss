@@ -9,7 +9,7 @@ a:hover {
 }
 
 .hero.is-medium.full-width-img {
-  background-image: url('./images/img_9339.jpg');
+  background-image: url('../public/assets/images/img_9339.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -18,7 +18,7 @@ a:hover {
 }
 
 .hero.is-medium.full-width-img2 {
-  background-image: url('./images/ginandpickles.JPG');
+  background-image: url('../public/assets/images/ginandpickles.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -126,14 +126,14 @@ a:hover {
 
 @media (max-width: 480px) {
   .hero.is-medium.full-width-img {
-    background-image: url('./images/img_9339.jpg');
+    background-image: url('../public/assets/images/img_9339.jpg');
     background-repeat: no-repeat !important;
     background-size: contain !important;
     height: 1180px !important;
   }
 
   .hero.is-medium.full-width-img2 {
-    background-image: url('./images/ginandpickles.JPG');
+    background-image: url('../public/assets/images/ginandpickles.jpg');
     background-repeat: no-repeat !important;
     background-size: contain !important;
     height: 1180px !important;
