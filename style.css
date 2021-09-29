@@ -1,9 +1,3 @@
-@mixin for-phone-only {
-  @media only screen and (max-device-width: 768px) { @content };
-}
-
-
-
 a:link {
   color: #ff6699 !important;
   text-decoration: none !important;
@@ -20,9 +14,11 @@ a:hover {
   width: 100%;
   height: auto;
   text-align: center;
-  background-image: linear-gradient(rgba(0,0,0, 0.35), rgba(0,0,0, 0.5)), url('./../public/assets/images/tt_3.png');
-  @include for-phone-only {
-    background-image: url('./../public/assets/images/tt_6.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.5)), url("./../public/assets/images/tt_3.png");
+}
+@media (max-width: 730px) {
+  .hero.is-medium.full-width-img {
+    background-image: url("./../public/assets/images/tt_6.png");
     background-repeat: no-repeat !important;
     background-size: contain !important;
     height: 1180px !important;
@@ -30,13 +26,12 @@ a:hover {
 }
 
 .hero.is-medium.full-width-img2 {
-  background-image: url('./../public/assets/images/ginandpickles.jpg');
+  background-image: url("./../public/assets/images/ginandpickles.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
   height: auto;
   text-align: center;
-
 }
 
 .navbar.is-transparent.is-fixed-top {
@@ -57,7 +52,7 @@ a:hover {
   font-size: 110px !important;
   text-shadow: 4.5px 4.5px #000000 !important;
   text-align: center !important;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .title-2 {
@@ -65,53 +60,52 @@ a:hover {
   font-size: 160px !important;
   text-shadow: 3px 3px #000000 !important;
   text-align: center !important;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .subtitle {
   color: #ffc107 !important;
-  font-size:50px !important;
+  font-size: 50px !important;
   text-shadow: 2px 2px #000000 !important;
   text-align: center !important;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .subtitle.left {
   color: #ffffff !important;
-  font-size:50px !important;
+  font-size: 50px !important;
   text-shadow: 2px 2px #000000 !important;
   text-align: center !important;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   border: 2px solid #ffffff;
   width: 33.33%;
 }
 
 .subtitle.left.bottom {
   color: #ffffff !important;
-  font-size:50px !important;
+  font-size: 50px !important;
   text-shadow: 2px 2px #000000 !important;
   text-align: center !important;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   border: 2px solid #ffffff;
   width: 33.33%;
   margin-top: 50px;
 }
 
-
 .subtitle.arrow-1 {
   color: #00cccc !important;
-  font-size:50px !important;
+  font-size: 50px !important;
   text-shadow: 2px 2px #000000 !important;
   text-align: center !important;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .subtitle.arrow-2 {
   color: #ff6699 !important;
-  font-size:50px !important;
+  font-size: 50px !important;
   text-shadow: 2px 2px #000000 !important;
   text-align: center !important;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .navbar-item.colour {
@@ -123,7 +117,7 @@ a:hover {
   width: 33.33%;
   color: #ffffff;
   text-shadow: 1px 1px #000000 !important;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .footer {
@@ -138,14 +132,14 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
   .hero.is-medium.full-width-img {
-    background-image: url('./../public/assets/images/tt_6.png');
+    background-image: url("./../public/assets/images/tt_6.png");
     background-repeat: no-repeat !important;
     background-size: contain !important;
     height: 1180px !important;
   }
 
   .hero.is-medium.full-width-img2 {
-    background-image: url('./../public/assets/images/ginandpickles.jpg');
+    background-image: url("./../public/assets/images/ginandpickles.jpg");
     background-repeat: no-repeat !important;
     background-size: contain !important;
     height: 1180px !important;
@@ -155,3 +149,5 @@ a:hover {
     height: 1180px !important;
   }
 }
+
+/*# sourceMappingURL=style.css.map */

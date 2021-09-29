@@ -1,5 +1,6 @@
 import React from 'react'
 import 'bulma'
+import logocircle from '../../public/assets/images/logocircle.png'
 // import { Link } from 'react-router-dom'
 
 
@@ -15,25 +16,9 @@ class Hero extends React.Component {
             <h1 className="title-2" id="home">
               TOUCAN
             </h1>
-            <h2 className="subtitle">
-              Custom hand made signposts, perfect for that wedding, birthday or anniversary gift.
-            </h2>
-            <h2 className="subtitle arrow-1">
-              <a href ="#gallery">
-                ▽
-              </a>
-            </h2>
-            <h2 className="subtitle arrow-1">
-                ▽
-            </h2>
-            <h2 className="subtitle arrow-1">
-                ▽
-            </h2>
-            <h2 className="subtitle arrow-1">
-                ▽
-            </h2>
-            <h2 className="subtitle arrow-1">
-                ▽
+            <img src={ logocircle } width="200" height="200"  alt="Travelling Toucan Logo"/>
+            <h2 className="subtitle left bottom">
+              Order Now
             </h2>
           </div>
         </div>

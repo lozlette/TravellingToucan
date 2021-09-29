@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/app.js',
   output: {
     path: path.resolve('dist'),
-    filename: 'bundle.js',
+    filename: './dist/bundle.js',
     publicPath: '/'
   },
   module: {

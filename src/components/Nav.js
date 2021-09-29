@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bulma'
-import logo2 from '../../public/assets/images/logo2.jpg'
+import logocircle from '../../public/assets/images/logocircle.png'
 
 
 class Nav extends React.Component {
@@ -27,7 +27,7 @@ class Nav extends React.Component {
       <nav className="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a className="navbar-item" >
-            <img src={ logo2 } width="30" height="40" />
+            <img src={ logocircle } width="30" height="40" />
           </a>
 
           <a className={`navbar-burger ${this.state.navbarOpen ? 'is-active' :'' }`}

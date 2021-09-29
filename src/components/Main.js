@@ -13,19 +13,19 @@ class Main extends React.Component {
             </h2>
             <div className="about-p">
               <p>
-                Custom made wooden signposts from Travelling Toucan can be tailored to point at up to six of your favourite places, holiday destinations, famous landmarks, countries, capital cities or even just six fictional locations from your favourite film or book.
+                Here at Travelling Toucan we LOVE adventures.
               </p>
               <br/>
               <p>
-                With many of us currently unable to travel to all those places we dream of visiting, this personalised signpost is the perfect gift for a birthday, wedding or anniversary or even to go in a little ones new nursery.
+                Whether they are your epic global travels or the next adventure in your life story, like a new baby or new home.
               </p>
               <br/>
               <p>
-                A timeless handcrafted piece with stylish design will suit any living space, work space or home office.
+                We can provide you with a personalised beautifully crafted, timeless pieces to suit any setting. Desktop Signposts, Garden signs and wooden, metal and canvas wall art.
               </p>
               <br/>
               <p>
-                For the adventures already taken, adventures yet to happen, the adventures of your favourite character, where will your Travelling Toucan signpost take you?
+                For the Adventures already taken or Adventures yet to come - Where will your Travelling Toucan piece take you?
               </p>
               <div id="bottom-1">
               </div>
