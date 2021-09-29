@@ -17,9 +17,11 @@ class Hero extends React.Component {
               TOUCAN
             </h1>
             <img src={ logocircle } width="200" height="200"  alt="Travelling Toucan Logo"/>
-            <h2 className="subtitle left bottom">
-              Order Now
-            </h2>
+            <a href="https://www.etsy.com/uk/shop/TravellingToucan">
+              <h2 className="subtitle left bottom">
+                Order Now
+              </h2>
+            </a>
           </div>
         </div>
       </section>
