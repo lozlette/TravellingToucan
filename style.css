@@ -16,7 +16,7 @@ a:hover {
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.5)), url("./../public/assets/images/tt_3.png");
 }
-@media (max-width: 730px) {
+@media only screen and (max-device-width: 768px) {
   .hero.is-medium.full-width-img {
     background-image: url("./../public/assets/images/tt_6.png");
     background-repeat: no-repeat !important;
