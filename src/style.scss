@@ -13,13 +13,13 @@ a:hover {
 }
 
 .hero.is-medium.full-width-img {
-  background: linear-gradient(rgba(0,0,0, 0.35), rgba(0,0,0, 0.5)), url('/travelling-toucan/images/ginandpickles.jpg') 0 no-repeat fixed;
+  background: linear-gradient(rgba(0,0,0, 0.35), rgba(0,0,0, 0.5)), url('/travelling-toucan/images/tt3.png') 0 no-repeat fixed;
   background-size: 100%;
   width: 100%;
   height: auto;
   text-align: center;
   @include for-phone-only {
-    background: url('/travelling-toucan/images/ginandpickles.jpg') 0 fixed;
+    background: url('/travelling-toucan/images/tt6.png') 0 fixed;
     background-repeat: no-repeat !important;
     background-size: contain !important;
     height: 1180px !important;
@@ -132,22 +132,22 @@ a:hover {
   font-size: 13px;
 }
 
-@media only screen and (max-width: 600px) {
-  .hero.is-medium.full-width-img {
-    background: url('/travelling-toucan/images/ginandpickles.jpg');
-    background-repeat: no-repeat !important;
-    background-size: contain !important;
-    height: 1180px !important;
-  }
-
-  .hero.is-medium.full-width-img2 {
-    background: url('/travelling-toucan/images/ginandpickles.jpg');
-    background-repeat: no-repeat !important;
-    background-size: contain !important;
-    height: 1180px !important;
-  }
-
-  .hero-body {
-    height: 1180px !important;
-  }
-}
+// @media only screen and (max-width: 600px) {
+//   .hero.is-medium.full-width-img {
+//     background: url('/travelling-toucan/images/tt6.png');
+//     background-repeat: no-repeat !important;
+//     background-size: contain !important;
+//     height: 1180px !important;
+//   }
+//
+//   .hero.is-medium.full-width-img2 {
+//     background: url('/travelling-toucan/images/ginandpickles.jpg');
+//     background-repeat: no-repeat !important;
+//     background-size: contain !important;
+//     height: 1180px !important;
+//   }
+//
+//   .hero-body {
+//     height: 1180px !important;
+//   }
+// }
