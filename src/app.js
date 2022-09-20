@@ -1,6 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './style.scss'
+import './../images/tt3.png'
+import './../images/tt6.png'
+import './../images/ginandpickles.jpg'
+
+
+
 import 'normalize-scss'
 import 'bootstrap-css-only'
 import Hero from './components/Hero'

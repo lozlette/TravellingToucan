@@ -1,20 +1,22 @@
 const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+
 
 module.exports = {
   entry: './src/app.js',
   output: {
     path: path.resolve('dist'),
-    filename: './dist/bundle.js',
+    filename: './bundle.js',
     publicPath: '/'
   },
   module: {
     rules: [
-      { test: /\.(png|jpg|jpeg|JPG)$/, loader: 'url-loader'},
-      { test: /\.jsx?$/, loader: 'babel-loader', exclude: /node_modules/ },
+      { test: /\.s(a|c)ss$/, loader: ['style-loader', 'css-loader', 'sass-loader'] },
       { test: /\.css$/, loader: ['style-loader', 'css-loader'] },
-      { test: /\.s(a|c)ss$/, loader: ['style-loader', 'css-loader', 'sass-loader'] }
+      { test: /\.(png|jpg|jpeg|JPG)$/, loader: 'file-loader'},
+      { test: /\.jsx?$/, loader: 'babel-loader', exclude: /node_modules/ }
 
     ]
   },
@@ -38,6 +40,7 @@ module.exports = {
       template: 'index.html',
       filename: 'index.html',
       inject: 'body'
-    })
+    }),
+    new CleanWebpackPlugin()
   ]
 }
