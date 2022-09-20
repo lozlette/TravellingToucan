@@ -13,9 +13,9 @@ module.exports = {
   },
   module: {
     rules: [
+      { test: /\.(png|jpg|jpeg|JPG)$/, loader: 'url-loader'},
       { test: /\.s(a|c)ss$/, loader: ['style-loader', 'css-loader', 'sass-loader'] },
       { test: /\.css$/, loader: ['style-loader', 'css-loader'] },
-      { test: /\.(png|jpg|jpeg|JPG)$/, loader: 'url-loader'},
       { test: /\.(png|jpg|jpeg|JPG)$/, loader: 'file-loader'},
       { test: /\.jsx?$/, loader: 'babel-loader', exclude: /node_modules/ }
 
