@@ -128,24 +128,4 @@ a:hover {
   font-size: 13px;
 }
 
-@media only screen and (max-width: 600px) {
-  .hero.is-medium.full-width-img {
-    background: url("/travelling-toucan/images/tt6.png");
-    background-repeat: no-repeat !important;
-    background-size: contain !important;
-    height: 1180px !important;
-  }
-
-  .hero.is-medium.full-width-img2 {
-    background: url("/travelling-toucan/images/ginandpickles.jpg");
-    background-repeat: no-repeat !important;
-    background-size: contain !important;
-    height: 1180px !important;
-  }
-
-  .hero-body {
-    height: 1180px !important;
-  }
-}
-
 /*# sourceMappingURL=style.css.map */
