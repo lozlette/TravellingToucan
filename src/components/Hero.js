@@ -6,7 +6,8 @@ import tt6 from '../../images/tt6.png'
 const sectionStyle = {
   width: '100%',
   height: '1180px',
-  backgroundImage: `url(${tt6})`
+  backgroundImage: `url(${tt6})`,
+  objectFit: 'cover'
 }
 // import { Link } from 'react-router-dom'
 
