@@ -10,7 +10,7 @@ const sectionStyle = {
   objectFit: 'contain',
   linearGradient: '(rgba(0,0,0, 0.35), rgba(0,0,0, 0.5))',
   backgroundRepeat: 'no-repeat',
-  backgroundSize: '100%'
+  backgroundSize: 'contain'
 }
 // import { Link } from 'react-router-dom'
 
