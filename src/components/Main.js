@@ -1,15 +1,14 @@
 import React from 'react'
 import 'bulma'
-import tt3 from '../../images/tt3.png'
+import ginandpickles from '../../images/ginandpickles.jpg'
 
 // import { Link } from 'react-router-dom'
 
 const sectionStyle = {
   width: '100%',
   height: '1180px',
-  backgroundImage: `url(${tt3})`,
-  objectFit: 'contain',
-  linearGradient: '(rgba(0,0,0, 0.35), rgba(0,0,0, 0.5))',
+  backgroundImage: `linear-gradient(rgba(0,0,0, 0.35), rgba(0,0,0, 0.5)), url(${ginandpickles})`,
+  // objectFit: 'contain',
   backgroundRepeat: 'no-repeat',
   backgroundSize: '100%'
 

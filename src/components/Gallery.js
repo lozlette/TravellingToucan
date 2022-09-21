@@ -2,7 +2,7 @@ import React from 'react'
 import 'bulma'
 import img9349 from '../../images/img9349.jpg'
 import img9356 from '../../images/img9356.jpg'
-import ginandpickles from '../../images/ginandpickles.jpg'
+import img9339 from '../../images/img9339.jpeg'
 
 
 class Gallery extends React.Component {
@@ -20,7 +20,7 @@ class Gallery extends React.Component {
           <p className="title"></p>
           <p className="subtitle"></p>
           <figure className="image is-4by5">
-            <img src={ginandpickles} alt="gin and pickles bar signpost"/>
+            <img src={img9339} alt="gin and pickles bar signpost"/>
           </figure>
         </article>
         <article className="tile is-child notification is-white">
