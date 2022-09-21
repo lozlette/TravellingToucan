@@ -6,7 +6,7 @@ import collage3 from '../../images/collage3.jpg'
 const sectionStyle = {
   width: '100%',
   height: 'auto',
-  backgroundImage: ` linearGradient(rgba(0,0,0, 0.35), rgba(0,0,0, 0.5)), url(${collage3})`,
+  backgroundImage: `linear-gradient(rgba(0,0,0, 0.35), rgba(0,0,0, 0.5)), url(${collage3})`,
   objectFit: 'contain',
   backgroundRepeat: 'no-repeat',
   backgroundSize: '100%',
