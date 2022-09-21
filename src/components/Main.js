@@ -8,7 +8,11 @@ const sectionStyle = {
   width: '100%',
   height: '1180px',
   backgroundImage: `url(${tt3})`,
-  objectFit: 'contain'
+  objectFit: 'contain',
+  linearGradient: '(rgba(0,0,0, 0.35), rgba(0,0,0, 0.5))',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: '100%'
+
 }
 
 class Main extends React.Component {
