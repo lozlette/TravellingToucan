@@ -5,9 +5,10 @@ import tt6 from '../../images/tt6.png'
 
 const sectionStyle = {
   width: '100%',
-  height: '1180px',
+  height: 'auto',
   backgroundImage: `url(${tt6})`,
-  objectFit: 'contain'
+  objectFit: 'contain',
+  linearGradient: '(rgba(0,0,0, 0.35), rgba(0,0,0, 0.5))'
 }
 // import { Link } from 'react-router-dom'
 
