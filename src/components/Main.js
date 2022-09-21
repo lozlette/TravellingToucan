@@ -1,13 +1,13 @@
 import React from 'react'
 import 'bulma'
-import ginandpickles from '../../images/ginandpickles.jpg'
+import tt3 from '../../images/tt3.png'
 
 // import { Link } from 'react-router-dom'
 
 const sectionStyle = {
   width: '100%',
   height: '1180px',
-  backgroundImage: `url(${ginandpickles})`,
+  backgroundImage: `url(${tt3})`,
   objectFit: 'contain'
 }
 
