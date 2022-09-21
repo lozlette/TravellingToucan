@@ -9,8 +9,7 @@ const sectionStyle = {
   backgroundImage: `url(${tt6})`,
   objectFit: 'contain',
   linearGradient: '(rgba(0,0,0, 0.35), rgba(0,0,0, 0.5))',
-  backgroundRepeat: 'no-repeat',
-  position: 'fixed'
+  backgroundRepeat: 'no-repeat'
 }
 // import { Link } from 'react-router-dom'
 
