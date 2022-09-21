@@ -2,13 +2,19 @@ import React from 'react'
 import 'bulma'
 import logocircle from '../../images/logocircle.png'
 import tt6 from '../../images/tt6.png'
+
+const sectionStyle = {
+  width: '100%',
+  height: '1180px',
+  backgroundImage: `url(${tt6})`
+}
 // import { Link } from 'react-router-dom'
 
 
 class Hero extends React.Component {
   render(){
     return (
-      <section className="hero is-medium full-width-img" img src={tt6}>
+      <section className="hero is-medium full-width-img" style={ sectionStyle }>
         <div className="hero-body">
           <div className="container">
             <h1 className="title-1" id="top">
