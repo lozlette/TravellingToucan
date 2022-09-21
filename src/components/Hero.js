@@ -1,14 +1,14 @@
 import React from 'react'
 import 'bulma'
 import logocircle from '../../images/logocircle.png'
-
+import tt6 from '../../images/tt6.png'
 // import { Link } from 'react-router-dom'
 
 
 class Hero extends React.Component {
   render(){
     return (
-      <section className="hero is-medium full-width-img">
+      <section className="hero is-medium full-width-img" img src={tt6}>
         <div className="hero-body">
           <div className="container">
             <h1 className="title-1" id="top">
