@@ -1,12 +1,12 @@
 import React from 'react'
 import 'bulma'
 import logocircle from '../../images/logocircle.png'
-import tt6 from '../../images/tt6.png'
+import collage3 from '../../images/collage3.jpg'
 
 const sectionStyle = {
   width: '100%',
   height: 'auto',
-  backgroundImage: `url(${tt6})`,
+  backgroundImage: `url(${collage3})`,
   objectFit: 'contain',
   linearGradient: '(rgba(0,0,0, 0.35), rgba(0,0,0, 0.5))',
   backgroundRepeat: 'no-repeat',
