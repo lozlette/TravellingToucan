@@ -6,9 +6,8 @@ import collage3 from '../../images/collage3.jpg'
 const sectionStyle = {
   width: '100%',
   height: 'auto',
-  backgroundImage: `url(${collage3})`,
+  backgroundImage: `url(${collage3}), linearGradient(rgba(0,0,0, 0.35), rgba(0,0,0, 0.5))`,
   objectFit: 'contain',
-  linearGradient: '(rgba(0,0,0, 0.35), rgba(0,0,0, 0.5))',
   backgroundRepeat: 'no-repeat',
   backgroundSize: '100%',
   textAlign: 'center'
