@@ -1,11 +1,20 @@
 import React from 'react'
 import 'bulma'
+import ginandpickles from '../../images/ginandpickles.jpg'
+
 // import { Link } from 'react-router-dom'
+
+const sectionStyle = {
+  width: '100%',
+  height: '1180px',
+  backgroundImage: `url(${ginandpickles})`,
+  objectFit: 'contain'
+}
 
 class Main extends React.Component {
   render(){
     return (
-      <section className="hero is-medium full-width-img2" id="about">
+      <section className="hero is-medium full-width-img2" id="about" style={ sectionStyle }>
         <div className="hero-body">
           <div className="container">
             <h2 className="subtitle left">
