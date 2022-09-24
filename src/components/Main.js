@@ -11,8 +11,7 @@ const sectionStyle = {
   // objectFit: 'contain',
   backgroundRepeat: 'no-repeat',
   backgroundSize: '100%',
-  position: 'absolute',
-  bottom: '0px'
+  position: 'relative'
 
 }
 
