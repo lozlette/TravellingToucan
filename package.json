@@ -7,7 +7,8 @@
     "test": "mocha --require test/spec_helper --require ignore-styles test/**/*_spec.js --recursive --exit",
     "serve:react": "webpack-dev-server",
     "build": "webpack -p",
-    "postinstall": "[ \"$NODE_ENV\" = \"production\" ] && yarn build || exit 0"
+    "postinstall": "[ \"$NODE_ENV\" = \"production\" ] && yarn build || exit 0",
+    "homepage": "."
   },
   "dependencies": {
     "@babel/core": "^7.11.6",
