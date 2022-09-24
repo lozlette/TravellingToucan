@@ -10,7 +10,8 @@ const sectionStyle = {
   backgroundImage: `linear-gradient(rgba(0,0,0, 0.35), rgba(0,0,0, 0.5)), url(${ginandpickles})`,
   // objectFit: 'contain',
   backgroundRepeat: 'no-repeat',
-  backgroundSize: '100%'
+  backgroundSize: '100%',
+  position: 'relative'
 
 }
 
