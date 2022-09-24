@@ -5,7 +5,7 @@ import tt6 from '../../images/tt6.png'
 
 const sectionStyle = {
   width: '100%',
-  height: 'auto',
+  height: '1180px',
   backgroundImage: `linear-gradient(rgba(0,0,0, 0.35), rgba(0,0,0, 0.5)), url(${tt6})`,
   // objectFit: 'contain',
   backgroundRepeat: 'no-repeat',
