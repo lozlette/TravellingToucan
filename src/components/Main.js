@@ -12,7 +12,7 @@ const sectionStyle = {
   backgroundRepeat: 'no-repeat',
   backgroundSize: '100%',
   position: 'relative',
-  bottom: '0px'
+  top: '0px'
 
 }
 
