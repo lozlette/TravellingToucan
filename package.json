@@ -8,7 +8,7 @@
     "serve:react": "webpack-dev-server",
     "build": "webpack -p",
     "postinstall": "[ \"$NODE_ENV\" = \"production\" ] && yarn build || exit 0",
-    "homepage": "https://lozlette.github.io-travelling-toucan",
+    "homepage": ".",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
