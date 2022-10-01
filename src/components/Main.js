@@ -2,13 +2,10 @@ import React from 'react'
 import 'bulma'
 import ginandpickles from '../../images/ginandpickles.jpg'
 
-// import { Link } from 'react-router-dom'
-
 const sectionStyle = {
   width: '100%',
   height: '1180px',
   backgroundImage: `linear-gradient(rgba(0,0,0, 0.35), rgba(0,0,0, 0.5)), url(${ginandpickles})`,
-  // objectFit: 'contain',
   backgroundRepeat: 'no-repeat',
   backgroundSize: '100%',
   position: 'relative',
@@ -19,7 +16,7 @@ const sectionStyle = {
 class Main extends React.Component {
   render(){
     return (
-      <section className="hero is-medium full-width-img2" id="about" style={ sectionStyle }>
+      <section className="hero is-medium is-fixed-bottom full-width-img2" id="about" style={ sectionStyle }>
         <div className="hero-body">
           <div className="container">
             <h2 className="subtitle left">
