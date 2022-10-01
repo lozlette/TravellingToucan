@@ -9,21 +9,21 @@ class Gallery extends React.Component {
   render(){
     return (
       <div className="tile is-parent" id="gallery">
-        <article className="tile is-child notification is-white">
+        <article className="tile is-child notification is-dark">
           <p className="title"></p>
           <p className="subtitle"></p>
           <figure className="image is-4by5">
             <img src={img9356} alt="Australia Hawaii and Estonia signpost"/>
           </figure>
         </article>
-        <article className="tile is-child notification is-white">
+        <article className="tile is-child notification is-dark">
           <p className="title"></p>
           <p className="subtitle"></p>
           <figure className="image is-4by5">
             <img src={img9339} alt="gin and pickles bar signpost"/>
           </figure>
         </article>
-        <article className="tile is-child notification is-white">
+        <article className="tile is-child notification is-dark">
           <p className="title"></p>
           <p className="subtitle"></p>
           <figure className="image is-4by5">
