@@ -8,7 +8,7 @@ import img9339 from '../../images/img9339.jpeg'
 class Gallery extends React.Component {
   render(){
     return (
-      <div className="tile is-parent" id="gallery">
+      <div className="tile is-parent is-dark" id="gallery">
         <article className="tile is-child notification is-dark">
           <p className="title"></p>
           <p className="subtitle"></p>
